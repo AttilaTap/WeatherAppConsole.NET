@@ -1,25 +1,20 @@
-# Weather Console App
+# Weather Console App 🌦️
 
-Hi 👋 this is a small C# console app that checks the weather in any city using OpenWeatherMap API.
+Hi 👋 This is a simple .NET console app I made to learn how to fetch and display weather data using an API.
 
-## How to use it
+It uses the **OpenWeatherMap API** to show the current temperature and description for any city you type in. I also added safe config handling so the API key isn't hardcoded.
 
-You need .NET installed and a terminal. Also get a free API key from https://openweathermap.org/api.
+## 🔧 Setup & How to Run
+
+You need:
+- [.NET SDK 7+ or 9](https://dotnet.microsoft.com/download)
+- A terminal (CMD, PowerShell, or VS Code terminal)
 
 ### Steps:
 
-1. Clone this
-2. Replace `"YOUR_API_KEY"` with your own key in Program.cs
-3. Open terminal in project folder
-4. Run it: `dotnet run`
-5. Type in your city name
+1. Clone this repo  
+2. Run the following in the terminal:
 
-## What it does
-
-- Sends request to OpenWeatherMap
-- Shows current temp and weather description
-- Uses JSON parsing
-
----
-
-Just playing around with APIs and console apps 🙃
+```bash
+dotnet restore
+dotnet run
